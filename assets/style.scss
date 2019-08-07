@@ -75,8 +75,9 @@ nav {
     }
 
     @media (max-width:960px) {
+      position: relative;
       width:100%;
-      left:10vw;
+      left:6vw;
       max-width:80vw;
       transform: translate(0px, 0px);
       padding:30px;
@@ -84,12 +85,9 @@ nav {
   }
 
 }
-
-
 .phone {
   animation: ring 4s .7s ease-in-out infinite;
 }
-
 @keyframes ring {
   0% { transform: rotate(0); }
   1% { transform: rotate(30deg); }
